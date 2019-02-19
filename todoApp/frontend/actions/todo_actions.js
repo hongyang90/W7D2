@@ -11,3 +11,6 @@ export const receiveTodos = (todos) => ({
   todos
 });
 
+
+window.receiveTodo = receiveTodo;
+window.receiveTodos = receiveTodos;
