@@ -55,3 +55,10 @@ Processing by StaticPagesController#root as HTML
 Completed 200 OK in 4960ms (Views: 4951.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/api/todos" for 127.0.0.1 at 2019-02-19 17:26:28 -0800
+Processing by Api::TodosController#index as JSON
+  [1m[36mTodo Load (9.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/api/todos_controller.rb:10
+Completed 200 OK in 87ms (Views: 35.7ms | ActiveRecord: 24.6ms)
+
+
